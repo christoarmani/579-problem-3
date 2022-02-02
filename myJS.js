@@ -47,10 +47,8 @@ const fahrenheit = document.querySelector("#f-input");
 */
 
 function convertTemp(){
-    console.log(fahrenheit.value);
     //Calculate the temperature here
     temp = (fahrenheit.value - 32) * (5/9);
-    console.log(temp);
     //Send the calculated temperature to HTML
     document.querySelector("#c-output").innerText = temp;
 };
